@@ -6,7 +6,9 @@ Once set up using FT\_PROG, an FTDI chip with one or more Multi-Protocol Synchro
 
 ![](img/ftdi_spi_stack.png)
 
-A particularly convenient way to use COMSPI during the development von SPI slave devices turned out to be defining `Sequences` in HTerm - with both HTerm and COMSPI connected through a com0com bridge.
+A particularly convenient way to use COMSPI during the development of SPI slave devices turned out to be defining `Sequences` in HTerm - with both HTerm and COMSPI connected through a com0com bridge.
+
+For more advanced projects, please consider using [devttys0/libmpsse](https://github.com/devttys0/libmpsse/tree/master/docs), which is based on [libFTDI](http://developer.intra2net.com/git/?p=libftdi;a=summary). See also [FTD2XX vs. libFTDI](https://elinux.org/Libftdi_vs_FTD2XX).
 
 ##  Setup
 
